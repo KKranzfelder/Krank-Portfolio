@@ -5,7 +5,7 @@ import ProjectCard from '../components/projectCard';
 
 const Home: NextPage = function () {
   return (
-    <div className='w-screen h-screen dark:bg-slate-900 -z-10 absolute '>
+    <div className='w-screen h-screen dark:bg-slate-900 -z-10 absolute scroll-smooth md:scroll-auto'>
       <div className='w-4/5 h-72 m-auto rounded shadow-sm bg-red-300 p-10 self-center bg-opacity-80 z-10  dark:bg-slate-800 dark:bg-opacity-80 '>
         <h2 className='text-5xl text-white dark:text-slate-300 m-5'>Welcome!</h2>
         <p className='first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-white first-letter:mr-3 first-letter:float-left dark:text-slate-400'>
@@ -20,9 +20,9 @@ const Home: NextPage = function () {
           <span className='text-7xl text-white'> projects</span>
       </div>
       <div className='flex flex-row w-4/5 m-auto justify-center'>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
+        <ProjectCard cardNum={0}/>
+        <ProjectCard cardNum={1}/>
+        <ProjectCard cardNum={2}/>
       </div>
     </div>
   )
