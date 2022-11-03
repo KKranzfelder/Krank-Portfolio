@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutMe = function () {
   return (
-    <div className="h-screen w-screen flex flex-col pt-5 dark:bg-slate-900 justify-start">
+    <div className="h-screen w-screen flex flex-col pt-5 dark:bg-slate-900 justify-start my-8">
       <div className="h-min w-4/5 bg-blue-300 bg-opacity-80 dark:bg-slate-800 rounded-lg p-3 min-w-min mx-auto">
         <div id="selfPortrait" className="w-52 h-52
          rounded-full overflow-hidden relative bottom-5 right-5 float-left">

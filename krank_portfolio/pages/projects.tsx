@@ -4,7 +4,7 @@ import type {NextPage} from 'next';
 
 const Projects: NextPage = function () {
   return (
-    <div className='px-20'>
+    <div className='m-auto px-20'>
       <span>Projects will live here.</span>
     </div>
   );
