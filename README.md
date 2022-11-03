@@ -1,3 +1,7 @@
+![Dark mode demonstration Gif of Portfolio Site](https://user-images.githubusercontent.com/71243281/199631501-194f4eb6-7b57-4b79-8e88-14f6accaf232.gif)
+![Light mode demonstration Gif of Portfolio Site](https://user-images.githubusercontent.com/71243281/199631519-ccc65166-bfad-4850-be13-825c258d25ee.gif)
+
+
 This is a personal Portfolio Site I have created using Next.js, Typescript, and Tailwind.CSS. This sight has a light and dark mode sensitive to the settings of your browser. If you would like to use it as a jumping off point for creating your own vision, I encourage you to check the documentation on the tech stack and have fun!
 
 ## Getting Started
