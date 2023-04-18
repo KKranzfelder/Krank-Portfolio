@@ -5,7 +5,7 @@ const Dropdown = function() {
 
   const [resumeIsViewed, setResumeIsViewed] = useState(false);
 
-  const toggleResume = (e) => {
+  const toggleResume = (e: object) => {
     e.preventDefault();
     setResumeIsViewed(!resumeIsViewed);
   }

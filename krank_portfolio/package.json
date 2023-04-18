@@ -13,8 +13,7 @@
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-pdf": "^6.2.2",
-    "webpack": "^5.79.0"
+    "react-pdf": "^6.2.2"
   },
   "devDependencies": {
     "@types/node": "18.7.23",

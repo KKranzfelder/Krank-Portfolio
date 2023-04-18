@@ -8,16 +8,17 @@ module.exports = {
     extend: {
       keyframes: {
         wave: {
-          '0%': { transform: 'scaleX(125%) translateX(10%)', opacity: '.5'},
-          '50%': { transform: 'scaleX(200%) translateX(-20%)', opacity: '1'},
-          '100': { transform: 'scaleX(150%) translateX(30%)', opacity: '.25'},
+          '0%': { transform: 'translateX(0%)', opacity: '.5'},
+          '25%' : {transform: 'translateX(12.5%) translateY(-5%)', opacity: '.625'},
+          '50%': {transform: 'translateX(25%) translateY(10%)', opacity:'.75'},
+          '100%': { transform: 'translateX(50%)', opacity: '.5'},
         }
       },
       animation: {
-        waveFast: 'wave 2s ease-in-out infinite alternate',
-        wave: 'wave 3s ease-in-out infinite alternate',
-        waveSlow: 'wave 4s ease-in-out infinite alternate',
-        waveSlowest: 'wave 5s ease-in-out infinite alternate'
+        waveFast: 'wave 3s linear infinite',
+        wave: 'wave 4s linear infinite',
+        waveSlow: 'wave 5s linear infinite',
+        waveSlowest: 'wave 6s linear infinite'
       }
     },
   },
